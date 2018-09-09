@@ -15,5 +15,11 @@ namespace JerryBibles
         {
             InitializeComponent();
         }
+
+        private void libroToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Registros.rLibros l = new UI.Registros.rLibros();
+            l.Show();
+        }
     }
 }
